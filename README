@@ -1,0 +1,8 @@
+Make sure the "include" folder contain the header files for GLFW and GLEW, 
+and the "lib" folder contain the .lib files for those libraries.
+
+The dll files for GLFW and GLEW should be in the same directory as the program.
+
+To run the code, change the paths in the commands to point to the "include" and "lib" folder:
+
+- g++ -g -std=c++17 -o "filename".exe -IC:\path\to\cap5705_fproj\include -LC:\path\to\cap5705_fproj\lib "filename".cpp -lglew32 -lglfw3dll -lopengl32
